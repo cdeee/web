@@ -1,5 +1,5 @@
 Evaluation script for economic event extraction from natural lang. text
-as described in paper: Cross-document Extraction of Economic Events.
+as described in paper: Building a Knowledge Base of Monetary Transactions.
 
 To run:
 eval.py -r <ground_truth_file>  -t <ml_results> -o <output folder> -v <verbose>

@@ -10,23 +10,23 @@
 
 
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
-     xml:base="http://idi.ntnu.no/ontologies/oee.owl"
+     xml:base="http://transaction-ontology.org/oee.owl"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     ontologyIRI="http://idi.ntnu.no/ontologies/oee.owl">
+     ontologyIRI="http://transaction-ontology.org/oee.owl">
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <Literal datatypeIRI="&xsd;string">http://research.idi.ntnu.no/wislab/eee/</Literal>
+        <Literal datatypeIRI="&xsd;string">http://transaction-ontology.org/</Literal>
     </Annotation>
     <Annotation>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <Literal datatypeIRI="&xsd;string">Ontology of Economic Events</Literal>
+        <Literal datatypeIRI="&xsd;string">Ontology of Monetary Transactions</Literal>
     </Annotation>
     <Declaration>
         <Class IRI="#Accept"/>
@@ -764,7 +764,7 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#Take"/>
-        <AnonymousIndividual nodeID="_:http://idi.ntnu.no/ontologies/oee.owl#genid1430718473587067000"/>
+        <AnonymousIndividual nodeID="_:http://transaction-ontology.org/oee.owl#genid1430718473587067000"/>
     </ClassAssertion>
     <DataPropertyAssertion>
         <DataProperty IRI="#isVerbPredicate"/>
