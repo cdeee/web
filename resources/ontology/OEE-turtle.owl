@@ -1,16 +1,16 @@
-@prefix : <http://idi.ntnu.no/ontologies/oee.owl#> .
+@prefix : <http://transaction-ontology.org/oee.owl#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://idi.ntnu.no/ontologies/oee.owl> .
+@base <http://transaction-ontology.org/oee.owl> .
 
-<http://idi.ntnu.no/ontologies/oee.owl> rdf:type owl:Ontology ;
+<http://transaction-ontology.org/oee.owl> rdf:type owl:Ontology ;
                                         
-                                        rdfs:label "Ontology of Economic Events"^^xsd:string ;
+                                        rdfs:label "Ontology of Monetary Transactions"^^xsd:string ;
                                         
-                                        rdfs:seeAlso "http://research.idi.ntnu.no/wislab/eee/"^^xsd:string .
+                                        rdfs:seeAlso "http://transaction-ontology.org/"^^xsd:string .
 
 
 #################################################################
@@ -20,7 +20,7 @@
 #################################################################
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#isNounPredicate
+###  http://transaction-ontology.org/oee.owl#isNounPredicate
 
 :isNounPredicate rdf:type owl:DatatypeProperty ;
                  
@@ -28,7 +28,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#isVerbPredicate
+###  http://transaction-ontology.org/oee.owl#isVerbPredicate
 
 :isVerbPredicate rdf:type owl:DatatypeProperty .
 
@@ -43,7 +43,7 @@
 #################################################################
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Accept
+###  http://transaction-ontology.org/oee.owl#Accept
 
 :Accept rdf:type owl:Class ;
         
@@ -53,7 +53,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Acquire
+###  http://transaction-ontology.org/oee.owl#Acquire
 
 :Acquire rdf:type owl:Class ;
          
@@ -63,7 +63,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Borrow
+###  http://transaction-ontology.org/oee.owl#Borrow
 
 :Borrow rdf:type owl:Class ;
         
@@ -73,7 +73,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Bribe
+###  http://transaction-ontology.org/oee.owl#Bribe
 
 :Bribe rdf:type owl:Class ;
        
@@ -83,7 +83,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Buy
+###  http://transaction-ontology.org/oee.owl#Buy
 
 :Buy rdf:type owl:Class ;
      
@@ -93,7 +93,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Buy_back
+###  http://transaction-ontology.org/oee.owl#Buy_back
 
 :Buy_back rdf:type owl:Class ;
           
@@ -103,7 +103,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Clean_up
+###  http://transaction-ontology.org/oee.owl#Clean_up
 
 :Clean_up rdf:type owl:Class ;
           
@@ -113,7 +113,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Clear
+###  http://transaction-ontology.org/oee.owl#Clear
 
 :Clear rdf:type owl:Class ;
        
@@ -123,9 +123,9 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Clear_(Sell)
+###  http://transaction-ontology.org/oee.owl#Clear_(Sell)
 
-<http://idi.ntnu.no/ontologies/oee.owl#Clear_(Sell)> rdf:type owl:Class ;
+<http://transaction-ontology.org/oee.owl#Clear_(Sell)> rdf:type owl:Class ;
                                                      
                                                      rdfs:subClassOf :Sell ;
                                                      
@@ -133,7 +133,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Collect
+###  http://transaction-ontology.org/oee.owl#Collect
 
 :Collect rdf:type owl:Class ;
          
@@ -143,9 +143,9 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Consume_(Spend)
+###  http://transaction-ontology.org/oee.owl#Consume_(Spend)
 
-<http://idi.ntnu.no/ontologies/oee.owl#Consume_(Spend)> rdf:type owl:Class ;
+<http://transaction-ontology.org/oee.owl#Consume_(Spend)> rdf:type owl:Class ;
                                                         
                                                         rdfs:subClassOf :Spend ;
                                                         
@@ -153,7 +153,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Contribute
+###  http://transaction-ontology.org/oee.owl#Contribute
 
 :Contribute rdf:type owl:Class ;
             
@@ -163,7 +163,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Decrement_Economic_Event_Type
+###  http://transaction-ontology.org/oee.owl#Decrement_Economic_Event_Type
 
 :Decrement_Economic_Event_Type rdf:type owl:Class ;
                                
@@ -173,7 +173,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Deposit
+###  http://transaction-ontology.org/oee.owl#Deposit
 
 :Deposit rdf:type owl:Class ;
          
@@ -183,7 +183,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Donate
+###  http://transaction-ontology.org/oee.owl#Donate
 
 :Donate rdf:type owl:Class ;
         
@@ -193,7 +193,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Earn
+###  http://transaction-ontology.org/oee.owl#Earn
 
 :Earn rdf:type owl:Class ;
       
@@ -204,13 +204,13 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Economic_Event_Type
+###  http://transaction-ontology.org/oee.owl#Economic_Event_Type
 
 :Economic_Event_Type rdf:type owl:Class .
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Fund
+###  http://transaction-ontology.org/oee.owl#Fund
 
 :Fund rdf:type owl:Class ;
       
@@ -220,7 +220,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Fundraise
+###  http://transaction-ontology.org/oee.owl#Fundraise
 
 :Fundraise rdf:type owl:Class ;
            
@@ -230,7 +230,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Get
+###  http://transaction-ontology.org/oee.owl#Get
 
 :Get rdf:type owl:Class ;
      
@@ -240,7 +240,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Give
+###  http://transaction-ontology.org/oee.owl#Give
 
 :Give rdf:type owl:Class ;
       
@@ -250,7 +250,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Gross
+###  http://transaction-ontology.org/oee.owl#Gross
 
 :Gross rdf:type owl:Class ;
        
@@ -260,7 +260,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Increment_Economic_Event_Type
+###  http://transaction-ontology.org/oee.owl#Increment_Economic_Event_Type
 
 :Increment_Economic_Event_Type rdf:type owl:Class ;
                                
@@ -268,7 +268,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Inherit
+###  http://transaction-ontology.org/oee.owl#Inherit
 
 :Inherit rdf:type owl:Class ;
          
@@ -278,7 +278,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Invest
+###  http://transaction-ontology.org/oee.owl#Invest
 
 :Invest rdf:type owl:Class ;
         
@@ -288,9 +288,9 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Make_(Earn)
+###  http://transaction-ontology.org/oee.owl#Make_(Earn)
 
-<http://idi.ntnu.no/ontologies/oee.owl#Make_(Earn)> rdf:type owl:Class ;
+<http://transaction-ontology.org/oee.owl#Make_(Earn)> rdf:type owl:Class ;
                                                     
                                                     rdfs:subClassOf :Get ;
                                                     
@@ -298,7 +298,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Market
+###  http://transaction-ontology.org/oee.owl#Market
 
 :Market rdf:type owl:Class ;
         
@@ -308,7 +308,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Net
+###  http://transaction-ontology.org/oee.owl#Net
 
 :Net rdf:type owl:Class ;
      
@@ -318,7 +318,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Obtain
+###  http://transaction-ontology.org/oee.owl#Obtain
 
 :Obtain rdf:type owl:Class ;
         
@@ -328,7 +328,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Outsource
+###  http://transaction-ontology.org/oee.owl#Outsource
 
 :Outsource rdf:type owl:Class ;
            
@@ -338,7 +338,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Pay
+###  http://transaction-ontology.org/oee.owl#Pay
 
 :Pay rdf:type owl:Class ;
      
@@ -348,7 +348,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Profit
+###  http://transaction-ontology.org/oee.owl#Profit
 
 :Profit rdf:type owl:Class ;
         
@@ -358,7 +358,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Purchase
+###  http://transaction-ontology.org/oee.owl#Purchase
 
 :Purchase rdf:type owl:Class ;
           
@@ -368,7 +368,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Raise
+###  http://transaction-ontology.org/oee.owl#Raise
 
 :Raise rdf:type owl:Class ;
        
@@ -378,7 +378,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Realize
+###  http://transaction-ontology.org/oee.owl#Realize
 
 :Realize rdf:type owl:Class ;
          
@@ -388,7 +388,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Receive
+###  http://transaction-ontology.org/oee.owl#Receive
 
 :Receive rdf:type owl:Class ;
          
@@ -398,7 +398,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Retail
+###  http://transaction-ontology.org/oee.owl#Retail
 
 :Retail rdf:type owl:Class ;
         
@@ -408,7 +408,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Secure
+###  http://transaction-ontology.org/oee.owl#Secure
 
 :Secure rdf:type owl:Class ;
         
@@ -418,7 +418,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Sell
+###  http://transaction-ontology.org/oee.owl#Sell
 
 :Sell rdf:type owl:Class ;
       
@@ -428,7 +428,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Shop
+###  http://transaction-ontology.org/oee.owl#Shop
 
 :Shop rdf:type owl:Class ;
       
@@ -438,7 +438,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Source
+###  http://transaction-ontology.org/oee.owl#Source
 
 :Source rdf:type owl:Class ;
         
@@ -448,7 +448,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Speculate
+###  http://transaction-ontology.org/oee.owl#Speculate
 
 :Speculate rdf:type owl:Class ;
            
@@ -458,7 +458,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Spend
+###  http://transaction-ontology.org/oee.owl#Spend
 
 :Spend rdf:type owl:Class ;
        
@@ -468,7 +468,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Subscribe
+###  http://transaction-ontology.org/oee.owl#Subscribe
 
 :Subscribe rdf:type owl:Class ;
            
@@ -478,7 +478,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Take
+###  http://transaction-ontology.org/oee.owl#Take
 
 :Take rdf:type owl:Class ;
       
@@ -488,15 +488,15 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Take_(Buy)
+###  http://transaction-ontology.org/oee.owl#Take_(Buy)
 
-<http://idi.ntnu.no/ontologies/oee.owl#Take_(Buy)> rdf:type owl:Class ;
+<http://transaction-ontology.org/oee.owl#Take_(Buy)> rdf:type owl:Class ;
                                                    
                                                    rdfs:subClassOf :Buy .
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Take_in
+###  http://transaction-ontology.org/oee.owl#Take_in
 
 :Take_in rdf:type owl:Class ;
          
@@ -506,7 +506,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Take_over
+###  http://transaction-ontology.org/oee.owl#Take_over
 
 :Take_over rdf:type owl:Class ;
            
@@ -516,7 +516,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Trade
+###  http://transaction-ontology.org/oee.owl#Trade
 
 :Trade rdf:type owl:Class ;
        
@@ -526,7 +526,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Turn
+###  http://transaction-ontology.org/oee.owl#Turn
 
 :Turn rdf:type owl:Class ;
       
@@ -536,7 +536,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Waste
+###  http://transaction-ontology.org/oee.owl#Waste
 
 :Waste rdf:type owl:Class ;
        
@@ -546,7 +546,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Win_back
+###  http://transaction-ontology.org/oee.owl#Win_back
 
 :Win_back rdf:type owl:Class ;
           
@@ -556,7 +556,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Yield
+###  http://transaction-ontology.org/oee.owl#Yield
 
 :Yield rdf:type owl:Class ;
        
@@ -575,7 +575,7 @@
 #################################################################
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Accept
+###  http://transaction-ontology.org/oee.owl#Accept
 
 :Accept rdf:type :Accept ,
                  owl:NamedIndividual ;
@@ -584,7 +584,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Acquire
+###  http://transaction-ontology.org/oee.owl#Acquire
 
 :Acquire rdf:type :Acquire ,
                   owl:NamedIndividual ;
@@ -593,7 +593,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Acquisition
+###  http://transaction-ontology.org/oee.owl#Acquisition
 
 :Acquisition rdf:type :Acquire ,
                       owl:NamedIndividual ;
@@ -604,7 +604,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Borrow
+###  http://transaction-ontology.org/oee.owl#Borrow
 
 :Borrow rdf:type :Borrow ,
                  owl:NamedIndividual ;
@@ -613,7 +613,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Bribe
+###  http://transaction-ontology.org/oee.owl#Bribe
 
 :Bribe rdf:type :Bribe ,
                 owl:NamedIndividual ;
@@ -622,7 +622,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Buy
+###  http://transaction-ontology.org/oee.owl#Buy
 
 :Buy rdf:type :Buy ,
               owl:NamedIndividual ;
@@ -631,7 +631,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Buy_back
+###  http://transaction-ontology.org/oee.owl#Buy_back
 
 :Buy_back rdf:type :Buy_back ,
                    owl:NamedIndividual ;
@@ -640,7 +640,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Clean_up
+###  http://transaction-ontology.org/oee.owl#Clean_up
 
 :Clean_up rdf:type :Clean_up ,
                    owl:NamedIndividual ;
@@ -649,7 +649,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Clear
+###  http://transaction-ontology.org/oee.owl#Clear
 
 :Clear rdf:type :Clear ,
                 owl:NamedIndividual ;
@@ -658,16 +658,16 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Clear_(Sell)
+###  http://transaction-ontology.org/oee.owl#Clear_(Sell)
 
-<http://idi.ntnu.no/ontologies/oee.owl#Clear_(Sell)> rdf:type <http://idi.ntnu.no/ontologies/oee.owl#Clear_(Sell)> ,
+<http://transaction-ontology.org/oee.owl#Clear_(Sell)> rdf:type <http://transaction-ontology.org/oee.owl#Clear_(Sell)> ,
                                                               owl:NamedIndividual ;
                                                      
                                                      :isVerbPredicate "true"^^xsd:boolean .
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Collect
+###  http://transaction-ontology.org/oee.owl#Collect
 
 :Collect rdf:type :Collect ,
                   owl:NamedIndividual ;
@@ -676,16 +676,16 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Consume_(Spend)
+###  http://transaction-ontology.org/oee.owl#Consume_(Spend)
 
-<http://idi.ntnu.no/ontologies/oee.owl#Consume_(Spend)> rdf:type <http://idi.ntnu.no/ontologies/oee.owl#Consume_(Spend)> ,
+<http://transaction-ontology.org/oee.owl#Consume_(Spend)> rdf:type <http://transaction-ontology.org/oee.owl#Consume_(Spend)> ,
                                                                  owl:NamedIndividual ;
                                                         
                                                         :isVerbPredicate "true"^^xsd:boolean .
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Contribute
+###  http://transaction-ontology.org/oee.owl#Contribute
 
 :Contribute rdf:type :Contribute ,
                      owl:NamedIndividual ;
@@ -694,7 +694,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Deposit
+###  http://transaction-ontology.org/oee.owl#Deposit
 
 :Deposit rdf:type :Deposit ,
                   owl:NamedIndividual ;
@@ -703,7 +703,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Donate
+###  http://transaction-ontology.org/oee.owl#Donate
 
 :Donate rdf:type :Donate ,
                  owl:NamedIndividual ;
@@ -712,7 +712,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Earn
+###  http://transaction-ontology.org/oee.owl#Earn
 
 :Earn rdf:type :Earn ,
                owl:NamedIndividual ;
@@ -721,7 +721,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Fund
+###  http://transaction-ontology.org/oee.owl#Fund
 
 :Fund rdf:type :Fund ,
                owl:NamedIndividual ;
@@ -730,7 +730,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Fundraise
+###  http://transaction-ontology.org/oee.owl#Fundraise
 
 :Fundraise rdf:type :Fundraise ,
                     owl:NamedIndividual ;
@@ -739,7 +739,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Get
+###  http://transaction-ontology.org/oee.owl#Get
 
 :Get rdf:type :Get ,
               owl:NamedIndividual ;
@@ -748,7 +748,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Give
+###  http://transaction-ontology.org/oee.owl#Give
 
 :Give rdf:type :Give ,
                owl:NamedIndividual ;
@@ -757,7 +757,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Gross
+###  http://transaction-ontology.org/oee.owl#Gross
 
 :Gross rdf:type :Gross ,
                 owl:NamedIndividual ;
@@ -766,7 +766,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Inherit
+###  http://transaction-ontology.org/oee.owl#Inherit
 
 :Inherit rdf:type :Inherit ,
                   owl:NamedIndividual ;
@@ -775,7 +775,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Invest
+###  http://transaction-ontology.org/oee.owl#Invest
 
 :Invest rdf:type :Invest ,
                  owl:NamedIndividual ;
@@ -784,16 +784,16 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Make_(Earn)
+###  http://transaction-ontology.org/oee.owl#Make_(Earn)
 
-<http://idi.ntnu.no/ontologies/oee.owl#Make_(Earn)> rdf:type <http://idi.ntnu.no/ontologies/oee.owl#Make_(Earn)> ,
+<http://transaction-ontology.org/oee.owl#Make_(Earn)> rdf:type <http://transaction-ontology.org/oee.owl#Make_(Earn)> ,
                                                              owl:NamedIndividual ;
                                                     
                                                     :isVerbPredicate "true"^^xsd:boolean .
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Market
+###  http://transaction-ontology.org/oee.owl#Market
 
 :Market rdf:type :Market ,
                  owl:NamedIndividual ;
@@ -802,7 +802,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Net
+###  http://transaction-ontology.org/oee.owl#Net
 
 :Net rdf:type :Net ,
               owl:NamedIndividual ;
@@ -811,7 +811,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Obtain
+###  http://transaction-ontology.org/oee.owl#Obtain
 
 :Obtain rdf:type :Obtain ,
                  owl:NamedIndividual ;
@@ -820,7 +820,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Outsource
+###  http://transaction-ontology.org/oee.owl#Outsource
 
 :Outsource rdf:type :Outsource ,
                     owl:NamedIndividual ;
@@ -829,7 +829,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Pay
+###  http://transaction-ontology.org/oee.owl#Pay
 
 :Pay rdf:type :Pay ,
               owl:NamedIndividual ;
@@ -838,7 +838,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Profit
+###  http://transaction-ontology.org/oee.owl#Profit
 
 :Profit rdf:type :Profit ,
                  owl:NamedIndividual ;
@@ -847,7 +847,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Purchase
+###  http://transaction-ontology.org/oee.owl#Purchase
 
 :Purchase rdf:type :Purchase ,
                    owl:NamedIndividual ;
@@ -856,7 +856,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Raise
+###  http://transaction-ontology.org/oee.owl#Raise
 
 :Raise rdf:type :Raise ,
                 owl:NamedIndividual ;
@@ -865,7 +865,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Realize
+###  http://transaction-ontology.org/oee.owl#Realize
 
 :Realize rdf:type :Realize ,
                   owl:NamedIndividual ;
@@ -874,7 +874,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Receive
+###  http://transaction-ontology.org/oee.owl#Receive
 
 :Receive rdf:type :Receive ,
                   owl:NamedIndividual ;
@@ -883,7 +883,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Retail
+###  http://transaction-ontology.org/oee.owl#Retail
 
 :Retail rdf:type :Retail ,
                  owl:NamedIndividual ;
@@ -892,7 +892,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Secure
+###  http://transaction-ontology.org/oee.owl#Secure
 
 :Secure rdf:type :Secure ,
                  owl:NamedIndividual ;
@@ -901,7 +901,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Sell
+###  http://transaction-ontology.org/oee.owl#Sell
 
 :Sell rdf:type :Sell ,
                owl:NamedIndividual ;
@@ -910,7 +910,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Shop
+###  http://transaction-ontology.org/oee.owl#Shop
 
 :Shop rdf:type :Shop ,
                owl:NamedIndividual ;
@@ -919,7 +919,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Source
+###  http://transaction-ontology.org/oee.owl#Source
 
 :Source rdf:type :Source ,
                  owl:NamedIndividual ;
@@ -928,7 +928,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Speculate
+###  http://transaction-ontology.org/oee.owl#Speculate
 
 :Speculate rdf:type :Speculate ,
                     owl:NamedIndividual ;
@@ -937,7 +937,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Spend
+###  http://transaction-ontology.org/oee.owl#Spend
 
 :Spend rdf:type :Spend ,
                 owl:NamedIndividual ;
@@ -946,7 +946,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Subscribe
+###  http://transaction-ontology.org/oee.owl#Subscribe
 
 :Subscribe rdf:type :Subscribe ,
                     owl:NamedIndividual ;
@@ -955,7 +955,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Take
+###  http://transaction-ontology.org/oee.owl#Take
 
 :Take rdf:type :Take ,
                owl:NamedIndividual ;
@@ -964,9 +964,9 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Take_(buy)
+###  http://transaction-ontology.org/oee.owl#Take_(buy)
 
-<http://idi.ntnu.no/ontologies/oee.owl#Take_(buy)> rdf:type <http://idi.ntnu.no/ontologies/oee.owl#Take_(Buy)> ,
+<http://transaction-ontology.org/oee.owl#Take_(buy)> rdf:type <http://transaction-ontology.org/oee.owl#Take_(Buy)> ,
                                                             owl:NamedIndividual ;
                                                    
                                                    rdfs:isDefinedBy "http://verbs.colorado.edu/propbank/framesets-english/take-v.html"^^xsd:anyURI ;
@@ -975,7 +975,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Take_in
+###  http://transaction-ontology.org/oee.owl#Take_in
 
 :Take_in rdf:type :Take_in ,
                   owl:NamedIndividual ;
@@ -984,7 +984,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Take_over
+###  http://transaction-ontology.org/oee.owl#Take_over
 
 :Take_over rdf:type :Take_over ,
                     owl:NamedIndividual ;
@@ -993,7 +993,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Trade
+###  http://transaction-ontology.org/oee.owl#Trade
 
 :Trade rdf:type :Trade ,
                 owl:NamedIndividual ;
@@ -1002,7 +1002,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Turn
+###  http://transaction-ontology.org/oee.owl#Turn
 
 :Turn rdf:type :Turn ,
                owl:NamedIndividual ;
@@ -1011,7 +1011,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Waste
+###  http://transaction-ontology.org/oee.owl#Waste
 
 :Waste rdf:type :Waste ,
                 owl:NamedIndividual ;
@@ -1020,7 +1020,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Win_back
+###  http://transaction-ontology.org/oee.owl#Win_back
 
 :Win_back rdf:type :Win_back ,
                    owl:NamedIndividual ;
@@ -1029,7 +1029,7 @@
 
 
 
-###  http://idi.ntnu.no/ontologies/oee.owl#Yield
+###  http://transaction-ontology.org/oee.owl#Yield
 
 :Yield rdf:type :Yield ,
                 owl:NamedIndividual ;
